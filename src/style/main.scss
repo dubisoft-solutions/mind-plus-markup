@@ -22,7 +22,11 @@
                     background-image: url("../img/hero-bg-large.png");
                     background-size: cover;
                 }
-                @include media-breakpoint-down(sm) {
+                @include media-breakpoint-down(md) {
+                    background-image: url("../img/hero-bg-middle.png");
+                    background-size: cover;
+                }
+                @include media-breakpoint-down(xs) {
                     background-image: url("../img/hero-bg-small.png");
                     background-size: cover;
                 }
