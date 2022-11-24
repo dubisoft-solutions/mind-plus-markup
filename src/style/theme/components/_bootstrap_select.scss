@@ -42,6 +42,8 @@
         border: none;
         box-shadow: $box-shadow-sm;
         padding: .75rem 0;
+        max-height: 7.25rem!important;
+        overflow-y: auto!important;
         .dropdown-item {
             &.active,
             &:hover {

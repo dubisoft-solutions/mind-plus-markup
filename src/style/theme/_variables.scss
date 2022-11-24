@@ -10,6 +10,8 @@ $silver: #E7E7E7;
 $gray: #9F9F9F;
 $red-70: #FF5346;
 $blue-209: #7DC1D1;
+$blue-224: #B0CCE0;
+$blue-121: #4A5979;
 $blue-174: #6C87AE;
 $blue-152: #657998;
 $blue-126: #08627E;
@@ -68,12 +70,12 @@ $btn-link-hover-color: $blue-174;
 // dropdown
 $dropdown-padding-x: .625rem;
 $dropdown-padding-y: .375rem;
-$dropdown-item-padding-y: .5rem;
-$dropdown-item-padding-x: .75rem;
+$dropdown-item-padding-y: .25rem;
+$dropdown-item-padding-x: .5rem;
 $dropdown-font-size: .75rem;
-$dropdown-bg: $white;
-$dropdown-color: $black-65;
-$dropdown-link-color: $black-65;
+$dropdown-bg: $black-73;
+$dropdown-color: $white;
+$dropdown-link-color: $white;
 $dropdown-border-radius: $border-radius;
 // break points
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1548px, xxxxl: 1920px, xxxxxl: 2560px);
