@@ -1,0 +1,11 @@
+.btn-info {
+    color: $white;
+    min-width: 9.75rem;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: none;
+        color: $white;
+        background-color: $blue-209;
+    }
+}

@@ -1,0 +1,66 @@
+@import "bootstrap-select/sass/variables";
+@import "bootstrap-select/sass/bootstrap-select";
+.bootstrap-select {
+    .dropdown-toggle.btn-light {
+        border: none;
+        background-color: transparent;
+        padding: .75rem .5rem;
+        font-size: .75rem;
+        &::placeholder {
+            color: $silver;
+            @include media-breakpoint-down(md) {
+                font-size: .688rem;
+            }
+        }
+        &:focus {
+            outline: none!important;
+            outline-offset: none!important;
+            box-shadow: none;
+        }
+        @include media-breakpoint-down(md) {
+            padding: .625rem .5rem;
+        }
+        &.show,
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: transparent!important;
+        }
+    }
+    .dropdown-toggle {
+        &.show {
+            &:after {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .dropdown-menu {
+        font-weight: 500;
+        font-size: .75rem;
+        color: $blue-152;
+        background-color: $black-73;
+        border: none;
+        box-shadow: $box-shadow-sm;
+        padding: .75rem 0;
+        .dropdown-item {
+            &.active,
+            &:hover {
+                color: $white;
+                background-color: $blue-112;
+            }
+        }
+    }
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder {
+    font-size: 1rem!important;
+    color: $silver;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    font-size: .75rem!important;
+    color: $silver;
+}

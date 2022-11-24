@@ -1,0 +1,54 @@
+@include media-breakpoint-up(xxl) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1267px;
+    }
+}
+
+.fw-medium {
+    font-weight: $font-weight-medium;
+}
+
+.text-secondary {
+    color: $gray!important;
+}
+
+.text-gray {
+    color: $blue-46;
+}
+
+.text-gray-50 {
+    color: $gray-172;
+}
+
+.text-gray-40 {
+    color: $gray-255;
+}
+
+.shadow {
+    box-shadow: $box-shadow!important;
+}
+
+.w-31 {
+    width: 1.938rem;
+}
+
+.h-31 {
+    height: 1.938rem;
+}
+
+textarea {
+    resize: none;
+}
+
+@include media-breakpoint-down(md) {
+    .fs-1 {
+        font-size: .938rem!important;
+    }
+    .fs-2 {
+        font-size: 1rem!important;
+    }
+}

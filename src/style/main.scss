@@ -1,0 +1,44 @@
+@import 'theme/theme';
+.index {
+    background-color: $white;
+    main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        .main-bg {
+            position: relative;
+            &::before {
+                width: 100%;
+                height: 100%;
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                background-image: url("../img/hero-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+.footer {
+    padding: .75rem 0;
+    &::before {
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block;
+        position: absolute;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-image: url("../img/head-decor.png");
+        bottom: 0;
+        z-index: -1;
+    }
+    @include media-breakpoint-down(lg) {
+        background-color: rgba(255, 255, 255, .9);
+        padding: .5rem 0;
+    }
+}

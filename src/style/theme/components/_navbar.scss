@@ -1,0 +1,8 @@
+.navbar {
+    .navbar-brand-img {
+        width: 5rem;
+        @include media-breakpoint-down(md) {
+            width: 2.5rem;
+        }
+    }
+}

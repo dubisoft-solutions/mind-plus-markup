@@ -1,0 +1,104 @@
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: 'Futura PT' !default;
+$font-family-title: 'Inter' !default;
+$white: #FFFFFF;
+$light-249: #F7F8F9;
+$light-255: #F5F5FF;
+$light-gray: #E8E8E8;
+$silver: #E7E7E7;
+$gray: #9F9F9F;
+$red-70: #FF5346;
+$blue-209: #7DC1D1;
+$blue-174: #6C87AE;
+$blue-152: #657998;
+$blue-126: #08627E;
+$gray-255: #C1C4CE;
+$gray-172: #969CAC;
+$blue-46: #2E3A59;
+$blue-112: #384770;
+$blue-88: #183258;
+$black-65: #0F3741;
+$black-73: #1E2A49;
+$black-97: #314461;
+$black: #000000;
+// scss-docs-start color-variables
+$blue: $blue-88 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: $red-70 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: $blue-209 !default;
+$gradient: linear-gradient(96.14deg, #FF4839 -10.84%, #FF8B84 196.74%);
+// font sizes
+$font-size-base: .875rem;
+$headings-font-family: $font-family-title;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2.438rem;
+$headings-font-weight: bold;
+$headings-line-height: 1.125;
+$headings-color: $white;
+$font-weight-medium: 500;
+$font-sizes: (1: 1.875rem, 2: 1.75rem, 3: 1rem);
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 6: $spacer * 10.313, );
+$border-radius-sm: .438rem;
+// box-shadow
+$box-shadow: 0px 4px 4px rgba(8, 98, 126, 0.2)!default;
+// border
+$border-radius: .563rem;
+$border-radius-sm: 1.875rem;
+$border-radius-lg: 3.125rem;
+// buttons
+$btn-padding-y: .625rem;
+$btn-padding-x: 2rem;
+$btn-font-size: .75rem;
+$btn-font-weight: 500;
+$btn-line-height: 1rem;
+$btn-border-radius: $border-radius-lg;
+$btn-bg: $blue-209;
+$btn-color: $white;
+$btn-link-color: $blue-126;
+$btn-link-hover-color: $blue-174;
+// dropdown
+$dropdown-padding-x: .625rem;
+$dropdown-padding-y: .375rem;
+$dropdown-item-padding-y: .5rem;
+$dropdown-item-padding-x: .75rem;
+$dropdown-font-size: .75rem;
+$dropdown-bg: $white;
+$dropdown-color: $black-65;
+$dropdown-link-color: $black-65;
+$dropdown-border-radius: $border-radius;
+// break points
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1548px, xxxxl: 1920px, xxxxxl: 2560px);
+// containers
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
+// form-control
+$input-font-size: .75rem;
+$input-font-weight: 300;
+$input-color: $white;
+$input-bg: transparent;
+$input-border-color: transparent;
+$input-padding-y: .5rem;
+$input-padding-x: .5rem;
+$input-group-addon-color: $light-gray;
+$input-group-addon-border-color: transparent;
+$input-group-addon-bg: transparent;
+$form-feedback-invalid-color: $red-70;
+$form-feedback-icon-invalid-color: $red-70;
+$form-feedback-font-size: .75rem;
+$input-color-placeholder: $red-70;
+// card
+$card-border-radius: $border-radius-sm;
+$card-bg: $light-249;
+$card-color: $black-97;
+$card-spacer-y: 2.5rem;
+$card-spacer-x: 1.25rem;
+// modal
+$modal-content-bg: transparent;

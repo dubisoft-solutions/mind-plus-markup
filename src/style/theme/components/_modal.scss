@@ -1,0 +1,22 @@
+.modal-backdrop {
+    background: linear-gradient(97.09deg, #132028 3.83%, #395765 98.1%);
+    background: rgba(34, 45, 55, 0.9);
+    &.show {
+        opacity: initial;
+    }
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-body {
+    padding: 1.875rem;
+    z-index: 0;
+}
+
+.close {
+    border: none!important;
+    background-color: transparent!important;
+    opacity: 1;
+}

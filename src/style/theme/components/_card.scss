@@ -1,0 +1,18 @@
+.card {
+    .card-title {
+        font-family: 'Futura Bk BT';
+        font-size: 1rem;
+        color: $black-97;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .card {
+        .card-body {
+            padding: 1.875rem 1rem;
+        }
+        .card-title {
+            font-size: .75rem;
+        }
+    }
+}
