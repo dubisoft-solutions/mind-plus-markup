@@ -14682,9 +14682,10 @@ p {
     background-size: cover;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 575.98px) {
   .index main .main-bg::before {
     background-image: url("../img/hero-bg-small.png");
+    background-size: cover;
   }
 }
 
