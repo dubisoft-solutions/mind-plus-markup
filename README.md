@@ -1,4 +1,4 @@
-### Playwing Markup project ###
+### Mind+ Markup project ###
 
 Markup project created by figma design.
 

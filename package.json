@@ -1,7 +1,7 @@
 {
-  "name": "playwing-markup",
+  "name": "mind-plus-markup",
   "version": "1.0.0",
-  "description": "Playwing Markup",
+  "description": "Mind+ Markup",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dubisoft-solutions/playwing-markup.git"
+    "url": "https://github.com/dubisoft-solutions/mind-plus-markup.git"
   },
   "author": "Ivan Dubynets",
   "license": "ISC",
@@ -37,7 +37,6 @@
     "bootstrap-select": "^1.14.0-beta2",
     "gulp-iconfont": "^11.0.1",
     "gulp-iconfont-css": "^3.0.0",
-    "jquery": "^3.6.1",
-    "tiny-slider": "^2.9.4"
+    "jquery": "^3.6.1"
   }
 }
