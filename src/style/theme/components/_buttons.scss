@@ -9,3 +9,12 @@
         background-color: $blue-209;
     }
 }
+
+.btn-lg {
+    padding: .938rem 3rem;
+    font-size: 1.125rem;
+    @include media-breakpoint-down(md) {
+        padding: .625rem 3rem;
+        font-size: .813rem;
+    }
+}
