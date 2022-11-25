@@ -64,6 +64,12 @@
     background-image: none;
 }
 
+.invalid-feedback {
+    text-align: start;
+    padding-left: 2.188rem;
+    margin-top: 0;
+}
+
 @include media-breakpoint-down(md) {
     .input-group-text {
         padding: .565rem .5rem;
