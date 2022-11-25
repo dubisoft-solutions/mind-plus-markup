@@ -15286,6 +15286,17 @@ textarea.form-control-lg {
   background-color: #7DC1D1;
 }
 
+.btn-lg, .btn-group-lg > .btn {
+  padding: 0.938rem 3rem;
+  font-size: 1.125rem;
+}
+@media (max-width: 767.98px) {
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 0.625rem 3rem;
+    font-size: 0.813rem;
+  }
+}
+
 .form-control {
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
