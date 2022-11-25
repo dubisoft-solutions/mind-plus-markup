@@ -17,3 +17,9 @@ p {
         line-height: 1.25;
     }
 }
+
+@include media-breakpoint-between(md, xxl) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}

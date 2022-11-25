@@ -40,6 +40,14 @@
     height: 1.938rem;
 }
 
+.w-58 {
+    width: 3.625rem;
+}
+
+.h-58 {
+    height: 3.625rem;
+}
+
 textarea {
     resize: none;
 }
@@ -58,12 +66,24 @@ textarea {
         padding-bottom: 2rem!important;
     }
     .pb-7 {
-        padding-bottom: 3rem!important;
+        padding-bottom: 4rem!important;
+    }
+    .w-58 {
+        width: 2.75rem;
+    }
+    .h-58 {
+        height: 2.75rem;
     }
 }
 
 @include media-breakpoint-between(md, xl) {
     .pb-7 {
         padding-bottom: 8rem!important;
+    }
+}
+
+@include media-breakpoint-up(xxxxxl) {
+    .pb-7 {
+        padding-bottom: 20rem!important;
     }
 }

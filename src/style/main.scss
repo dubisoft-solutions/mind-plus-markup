@@ -57,19 +57,46 @@
 .footer {
     padding: .75rem 0;
     &::before {
-        width: 100%;
-        height: 100%;
         content: "";
         display: block;
-        position: absolute;
-        background-position: bottom right;
-        background-repeat: no-repeat;
         background-image: url("../img/head-decor.png");
+        position: absolute;
         bottom: 0;
+        right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 20rem;
         z-index: -1;
+        @include media-breakpoint-up(lg) {
+            display: none;
+        }
+        @include media-breakpoint-between(xs,
+        md) {
+            width: 50%;
+        }
+        @include media-breakpoint-between(md,
+        lg) {
+            width: 30%;
+        }
     }
     @include media-breakpoint-down(lg) {
         background-color: rgba(255, 255, 255, .9);
         padding: .5rem 0;
+    }
+}
+
+.hero-img-decor {
+    position: relative;
+    bottom: -135px;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+    @include media-breakpoint-between(lg,
+    xl) {
+        bottom: -157px;
     }
 }
