@@ -23,46 +23,9 @@ var tns=function(){var t=window,Ai=t.requestAnimationFrame||t.webkitRequestAnima
 
 $(function() {
     $('.selectpicker').selectpicker();
-    initStepsSlider();
     initRecaptcha('6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', ".grecaptcha");
     initFormValidation();
 });
-
-function initStepsSlider() {
-    const slidesContainer = document.querySelector('.steps-slider');
-    if (!slidesContainer) return;
-
-    tns({
-        container: slidesContainer,
-        items: 1.4,
-        autoplay: false,
-        controls: false,
-        mouseDrag: true,
-        nav: false,
-        autoHeight: false,
-        gutter: 15, // padding between slides
-
-        responsive: {
-            0: {
-                items: 2.2,
-                edgePadding: 0,
-            },
-            576: {
-                items: 3,
-                edgePadding: 0,
-            },
-            768: {
-                items: 3,
-                edgePadding: 0,
-            },
-            992: {
-                items: 3
-            }
-        }
-    });
-
-    console.log('steps slider initialized')
-}
 
 function initRecaptcha(sitekey, containerSelector) {
     const recaptchaContainers = document.querySelectorAll(containerSelector);
