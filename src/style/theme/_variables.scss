@@ -48,7 +48,7 @@ $headings-color: $white;
 $font-weight-medium: 500;
 $font-sizes: (1: 1.875rem, 2: 1.75rem, 3: 1rem);
 $spacer: 1rem;
-$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 6: $spacer * 10.313, );
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 6: $spacer * 10.313, 7: $spacer * 15.313);
 $border-radius-sm: .438rem;
 // box-shadow
 $box-shadow: 0px 4px 4px rgba(8, 98, 126, 0.2)!default;
@@ -80,7 +80,7 @@ $dropdown-border-radius: $border-radius;
 // break points
 $grid-breakpoints: (xxc:0, xs: 390px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1548px, xxxxl: 1920px, xxxxxl: 2560px);
 // containers
-$container-max-widths: (xc: 340px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
+$container-max-widths: (xc: 325px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
 // form-control
 $input-font-size: .75rem;
 $input-font-weight: 300;

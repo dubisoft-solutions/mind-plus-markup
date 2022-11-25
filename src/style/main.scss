@@ -18,17 +18,15 @@
                 background-position: top center;
                 background-repeat: no-repeat;
                 z-index: -1;
+                background-size: cover;
                 @include media-breakpoint-up(xxl) {
                     background-image: url("../img/hero-bg-large.png");
-                    background-size: cover;
                 }
                 @include media-breakpoint-down(md) {
                     background-image: url("../img/hero-bg-middle.png");
-                    background-size: cover;
                 }
                 @include media-breakpoint-down(xs) {
                     background-image: url("../img/hero-bg-small.png");
-                    background-size: cover;
                 }
             }
         }
@@ -40,6 +38,19 @@
         @include media-breakpoint-down(lg) {
             transform: rotate(90deg);
         }
+    }
+}
+
+.recaptcha-style {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    height: 10vh;
+    @include media-breakpoint-down(md) {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        height: 7vh;
     }
 }
 

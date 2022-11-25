@@ -55,6 +55,15 @@ textarea {
         padding-top: 1rem!important;
     }
     .pb-6 {
-        padding-bottom: 1rem!important;
+        padding-bottom: 2rem!important;
+    }
+    .pb-7 {
+        padding-bottom: 3rem!important;
+    }
+}
+
+@include media-breakpoint-between(md, xl) {
+    .pb-7 {
+        padding-bottom: 8rem!important;
     }
 }
