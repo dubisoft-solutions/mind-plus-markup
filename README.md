@@ -1,10 +1,10 @@
-### Playwing Markup project ###
+### Mind+ Markup project ###
 
 Markup project created by figma design.
 
-Demo link [url](https://dubisoft-solutions.github.io/playwing-markup "Demo project link")
+Demo link [url](https://dubisoft-solutions.github.io/mind-plus-markup "Demo project link")
 
-RTL version: [url](https://dubisoft-solutions.github.io/playwing-markup?rtl=true "Demo rtl project link")
+RTL version: [url](https://dubisoft-solutions.github.io/mind-plus-markup?rtl=true "Demo rtl project link")
 
 ## Project structure ##
 
