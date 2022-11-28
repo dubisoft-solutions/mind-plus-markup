@@ -48,8 +48,8 @@
     -webkit-transform-origin: 0 0;
     height: 10vh;
     @include media-breakpoint-down(md) {
-        transform: scale(0.5);
-        -webkit-transform: scale(0.5);
+        transform: scale(0.45);
+        -webkit-transform: scale(0.45);
         height: 7vh;
     }
 }

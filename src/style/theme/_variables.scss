@@ -20,6 +20,7 @@ $gray-172: #969CAC;
 $blue-46: #2E3A59;
 $blue-112: #384770;
 $blue-88: #183258;
+$blue-66: #192142;
 $black-65: #0F3741;
 $black-73: #1E2A49;
 $black-97: #314461;
@@ -82,13 +83,14 @@ $grid-breakpoints: (xxc:0, xs: 390px, sm: 576px, md: 768px, lg: 992px, xl: 1200p
 // containers
 $container-max-widths: (xc: 325px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
 // form-control
-$input-font-size: .75rem;
+$input-font-size: .813rem;
+$input-line-height: 1;
 $input-font-weight: 300;
 $input-color: $white;
-$input-bg: transparent;
-$input-border-color: transparent;
-$input-padding-y: .5rem;
-$input-padding-x: .5rem;
+$input-bg: $blue-66;
+$input-border-color: $blue-66;
+$input-padding-y: .535rem;
+$input-padding-x: .75rem;
 $input-group-addon-color: $light-gray;
 $input-group-addon-border-color: transparent;
 $input-group-addon-bg: transparent;
@@ -96,6 +98,7 @@ $form-feedback-invalid-color: $red-70;
 $form-feedback-icon-invalid-color: $red-70;
 $form-feedback-font-size: .75rem;
 $input-color-placeholder: $red-70;
+$input-height: 2.25rem;
 // card
 $card-border-radius: $border-radius-sm;
 $card-bg: $light-249;

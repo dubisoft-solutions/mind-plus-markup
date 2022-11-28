@@ -4,10 +4,11 @@
     .dropdown-toggle.btn-light {
         border: none;
         background-color: transparent;
-        padding: .75rem .5rem;
-        font-size: .75rem;
+        padding: .52rem .75rem;
+        font-size: .813rem;
         &::placeholder {
             color: $silver;
+            font-size: .813rem;
             @include media-breakpoint-down(md) {
                 font-size: .688rem;
             }
@@ -18,7 +19,7 @@
             box-shadow: none;
         }
         @include media-breakpoint-down(md) {
-            padding: .625rem .5rem;
+            padding: .46rem .5rem;
         }
         &.show,
         &:active,
@@ -38,6 +39,7 @@
         background-color: $black-73;
         padding: .5rem 0;
         padding-right: .25rem;
+        border: none;
         ul {
             max-height: 7.25rem;
             overflow-y: auto;
@@ -51,6 +53,8 @@
             .dropdown-item {
                 font-weight: 300;
                 color: $white;
+                padding: .313rem .75rem;
+                margin-bottom: .313rem;
                 &.active,
                 &:hover,
                 &:focus {
@@ -75,14 +79,21 @@
 }
 
 .bootstrap-select>.dropdown-toggle.bs-placeholder {
-    font-size: 1rem!important;
+    font-size: 1rem;
     color: $silver;
+    @include media-breakpoint-down(md) {
+        font-size: .688rem;
+    }
 }
 
 .bootstrap-select>.dropdown-toggle.bs-placeholder,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
-    font-size: .75rem!important;
+    font-size: .813rem;
+    line-height: 1.5;
     color: $silver;
+    @include media-breakpoint-down(md) {
+        font-size: .688rem!important;
+    }
 }
