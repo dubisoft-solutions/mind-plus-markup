@@ -8,6 +8,11 @@
         color: $white;
         background-color: $blue-209;
     }
+    @include media-breakpoint-down(md) {
+        padding: .5rem 3rem;
+        font-size: .625rem;
+        min-width: 7.75rem;
+    }
 }
 
 .btn-lg {
