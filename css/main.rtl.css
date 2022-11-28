@@ -15285,6 +15285,13 @@ textarea.form-control-lg {
   color: #FFFFFF;
   background-color: #7DC1D1;
 }
+@media (max-width: 767.98px) {
+  .btn-info {
+    padding: 0.5rem 3rem;
+    font-size: 0.625rem;
+    min-width: 7.75rem;
+  }
+}
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.938rem 3rem;
