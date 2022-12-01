@@ -15464,8 +15464,24 @@ textarea.form-control-lg {
   background-color: #384770;
   border-radius: 0.125rem;
 }
+@media (max-width: 767.98px) {
+  .dropdown-menu.dropdown-style ul .dropdown-item {
+    font-size: 0.625rem !important;
+    padding: 0.25rem 0.5rem;
+  }
+}
+@media (min-width: 1920px) {
+  .dropdown-menu.dropdown-style ul .dropdown-item {
+    font-size: 1rem;
+  }
+}
 .dropdown-menu.dropdown-style ul::-webkit-scrollbar {
   width: 0.563rem;
+}
+@media (max-width: 767.98px) {
+  .dropdown-menu.dropdown-style ul::-webkit-scrollbar {
+    width: 0.25rem;
+  }
 }
 .dropdown-menu.dropdown-style ul::-webkit-scrollbar-track {
   background: #4A5979;
@@ -15474,6 +15490,11 @@ textarea.form-control-lg {
 .dropdown-menu.dropdown-style ul::-webkit-scrollbar-thumb {
   background: #B0CCE0;
   border-radius: 0.25rem;
+}
+@media (max-width: 767.98px) {
+  .dropdown-menu.dropdown-style {
+    width: 60px !important;
+  }
 }
 
 .modal-backdrop {
@@ -15966,8 +15987,24 @@ select.selectpicker {
   background-color: #384770;
   border-radius: 0.125rem;
 }
+@media (max-width: 767.98px) {
+  .bootstrap-select > .dropdown-menu ul .dropdown-item {
+    font-size: 0.5rem;
+    padding: 0.35rem 0.25rem;
+  }
+}
+@media (min-width: 1920px) {
+  .bootstrap-select > .dropdown-menu ul .dropdown-item {
+    font-size: 1rem;
+  }
+}
 .bootstrap-select > .dropdown-menu ul::-webkit-scrollbar {
   width: 0.563rem;
+}
+@media (max-width: 767.98px) {
+  .bootstrap-select > .dropdown-menu ul::-webkit-scrollbar {
+    width: 0.25rem;
+  }
 }
 .bootstrap-select > .dropdown-menu ul::-webkit-scrollbar-track {
   background: #4A5979;
