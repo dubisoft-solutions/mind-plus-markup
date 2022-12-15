@@ -20,6 +20,7 @@
         }
         @include media-breakpoint-down(md) {
             border-radius: .25rem;
+            font-size: .75rem;
             padding: .46rem .5rem;
         }
         &.show,
