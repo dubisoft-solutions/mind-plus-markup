@@ -10,7 +10,7 @@
             color: $silver;
             font-size: .813rem;
             @include media-breakpoint-down(md) {
-                font-size: .688rem;
+                font-size: .75rem;
             }
         }
         &:focus {
@@ -19,6 +19,7 @@
             box-shadow: none;
         }
         @include media-breakpoint-down(md) {
+            border-radius: .25rem;
             padding: .46rem .5rem;
         }
         &.show,
@@ -63,8 +64,8 @@
                     border-radius: .125rem;
                 }
                 @include media-breakpoint-down(md) {
-                    font-size: .5rem;
-                    padding: .35rem .25rem;
+                    font-size: .75rem;
+                    padding: .35rem .75rem;
                 }
                 @include media-breakpoint-up(xxxxl) {
                     font-size: 1rem;
@@ -92,7 +93,7 @@
     font-size: 1rem;
     color: $silver;
     @include media-breakpoint-down(md) {
-        font-size: .688rem;
+        font-size: .75rem;
     }
 }
 
@@ -104,6 +105,6 @@
     line-height: 1.5;
     color: $silver;
     @include media-breakpoint-down(md) {
-        font-size: .688rem!important;
+        font-size: .75rem!important;
     }
 }

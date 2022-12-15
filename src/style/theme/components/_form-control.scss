@@ -9,6 +9,10 @@
         box-shadow: none;
         border-color: transparent;
     }
+    @include media-breakpoint-down(md) {
+        border-top-left-radius: .25rem!important;
+        border-bottom-left-radius: .25rem!important;
+    }
 }
 
 .input-group-text {
@@ -24,7 +28,7 @@
         background-color: $light-gray;
         border-radius: .188rem;
         position: absolute;
-        top: .25rem;
+        top: .1rem;
         right: 0;
     }
 }
@@ -76,24 +80,11 @@
     }
     .form-control {
         border: none;
-        font-size: .688rem;
+        border-radius: .25rem;
+        font-size: .75rem;
         padding: .565rem .5rem;
         &::placeholder {
-            font-size: .688rem;
-        }
-    }
-    .striped-form {
-        .form-label {
-            font-size: .688rem;
-        }
-        .form-control {
-            padding: .125rem 0;
-        }
-        .btn-danger {
-            font-size: .688rem;
-            padding-top: .375rem;
-            padding-bottom: .375rem;
-            border-radius: .188rem;
+            font-size: .75rem!important;
         }
     }
 }
