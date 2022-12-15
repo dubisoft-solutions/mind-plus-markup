@@ -15946,6 +15946,7 @@ select.selectpicker {
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light {
     border-radius: 0.25rem;
+    font-size: 0.75rem;
     padding: 0.46rem 0.5rem;
   }
 }
