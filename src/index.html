@@ -24,7 +24,10 @@
                                             <span class="input-group-text" id="basic-email">
                                                 <icon class="icon icon-mail d-grid fs-6"></icon>
                                             </span>
-                                            <input type="email" class="form-control ms-2" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                            <input type="email" class="form-control ms-2" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email" required>
+                                            <div class="invalid-feedback">
+                                                Required field*
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 offset-lg-1 text-end d-lg-inline d-none">
@@ -38,7 +41,7 @@
                                             <span class="input-group-text" id="basic-country">
                                                 <icon class="icon icon-flag d-grid fs-6"></icon>
                                             </span>
-                                            <select class="selectpicker form-control ms-2" title="Country Code" id="basic-country">
+                                            <select class="selectpicker form-control ms-2" title="Country Code" id="basic-country" required>
                                                 <option>SPAIN (+34)</option>
                                                 <option>SPAIN (+34)</option>
                                                 <option>SPAIN (+34)</option>
@@ -47,6 +50,9 @@
                                                 <option>SPAIN (+34)</option>
                                                 <option>SPAIN (+34)</option>
                                             </select>
+                                            <div class="invalid-feedback">
+                                                Required field*
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-10 ps-0 pe-lg-0 pe-3 mb-lg-0 mb-4">
@@ -64,7 +70,7 @@
                                         <div class="grecaptcha recaptcha-style"></div>
                                     </div>
                                     <div class="col-lg-4 col-12 mt-lg-0 mt-3 text-lg-end text-center">
-                                        <button type="submit" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">SEND</button>
+                                        <button type="submit" class="btn btn-info">SEND</button>
                                     </div>
                                 </div>
                             </form>
