@@ -15352,6 +15352,9 @@ textarea.form-control-lg {
 .contact-form .form-control:focus {
   box-shadow: none;
 }
+.contact-form .invalid-feedback {
+  padding-right: 0;
+}
 
 .invalid-feedback {
   font-weight: 300;
